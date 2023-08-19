@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+      <!-- linking favicon icon for the browser into this html file-->
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <div id="game-Board"></div>
+    
+    <!--The reason we are using type module is because we want to have export 
+    import statement to have multiple javascript file to break apart our
+logic for food and snake into different files to make it easier to work with
+and easier to reason with our code. When we use type module then our javascript 
+and our browser will know that we are going to use import and export to make 
+different javascript files instead of one giant javascript files-->
+    <script src="game.js" type="module"></script>
+</body>
+</html>
