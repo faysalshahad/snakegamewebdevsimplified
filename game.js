@@ -28,7 +28,7 @@ function main(currentTime) {
     //return alert("You Lose!");
     if (confirm("You lost. Press OK to restart.")) {
        //window.location = "/";
-      location.reload();
+      window.location.reload();
     }
     return;
   }
